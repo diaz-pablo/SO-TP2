@@ -1,4 +1,4 @@
-package Ej4;
+package Ej3;
 
 import java.util.ArrayList;
 
@@ -85,7 +85,6 @@ public class Matrix {
 				matrix.append("	|	");
 				matrix.append("Inicio	|	");
 				matrix.append("Duración	|	");
-				matrix.append("Porc. de uso	|	");
 				matrix.append("\n|	");
 				
 				showDataMatrixOrUtilizationMatrix(matrix, numberOfProcess);
