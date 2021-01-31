@@ -13,9 +13,8 @@ public class Main {
 	
 	private Scanner scanner = new Scanner(System.in);
 	
-	// Creamos la matriz de datos con datos de prueba. No olvidar cargar los datos ordenados por el valor inicio del proceso (de menor a mayor).
-	private void createDataMatrixWithTestData() {
-		/*// Datos del Ejerc. 1 - TP2
+	private void exercise1() {
+		// Datos del Ejerc. 1 - TP2
 		
 		this.quantityOfProcesses = 3; // Cantidad de procesos
 		
@@ -34,9 +33,11 @@ public class Main {
 		// 3er fila
 		this.data.addValue(14.26, 2, 0);
 		this.data.addValue(1.0, 2, 1);
-		this.data.addValue(70.0, 2, 2);*/
-		
-		/*// Datos del Ejerc. 2 - TP2
+		this.data.addValue(70.0, 2, 2);
+	}
+	
+	private void exercise2() {
+		// Datos del Ejerc. 2 - TP2
 		
 		this.quantityOfProcesses = 5; // Cantidad de procesos
 		
@@ -65,8 +66,10 @@ public class Main {
 		// 5ta fila
 		this.data.addValue(15.25, 4, 0);
 		this.data.addValue(0.48, 4, 1);
-		this.data.addValue(50.0, 4, 2);*/
-		
+		this.data.addValue(50.0, 4, 2);
+	}
+	
+	private void exercise3() {
 		// Datos del Ejerc. 3 - TP2
 		
 		this.quantityOfProcesses = 4; // Cantidad de procesos
@@ -92,6 +95,15 @@ public class Main {
 		this.data.addValue(10.20, 3, 0);
 		this.data.addValue(2.0, 3, 1);
 		this.data.addValue(60.0, 3, 2);
+	}
+	
+	// Creamos la matriz de datos con datos de prueba. No olvidar cargar los datos ordenados por el valor inicio del proceso (de menor a mayor).
+	private void createDataMatrixWithTestData() {
+		//exercise1();
+		
+		//exercise2();
+		
+		exercise3();
 	}
 	
 	private void loadAndSortTheDataMatrix() {
